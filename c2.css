@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Fraunces:opsz@9..144&display=swap');
+*{
+    margin: 0;
+}
+
+
+header {
+    background-color: #3DBEFF;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 15px 10px;
+    font-family: Verdana;
+    
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    padding: 9px 10px;
+    border-radius: 30px;
+    font-size: 10px;
+}
+header a:hover {
+    background: white;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: serif;
+}
+.cur{
+   height: 100vh;
+   background-position: bottom;
+   background-size: cover; 
+   background-image: url('image-header.jpg');
+
+}
+.in{
+    display: flex;
+    justify-content: center;
+    font-family: 'fraunces';
+    font-weight: 600;
+    color: #fff;
+    
+}
+h1 {
+    padding: 50px 10px;
+    font-size: 40px;
+}
+section {
+    height: 90vh;
+}
+.cur2 img{
+    float: right;
+    width: 50%;
+    height: 90vh;
+}
+.bon {
+    padding: 50px 0px;
+    padding-left: 100px;
+    padding-right: 560px;   
+}
+.bon h2{
+    font-size: 40px;
+    font-family: 'fraunces';
+    font-weight: 900;
+}
+.bon p{
+    
+    font-family: 'barlow';
+    font-weight: bold;
+    font-size: 14.3px;
+    color: gray;
+    text-align: left;
+}
+.bon a{
+    
+    font-size: 14.3px;
+    font-family: 'fraunces';
+    font-weight: bold;
+    color: black;
+    text-decoration-color: yellow;
+}
+.cur3 img{
+    float: left;
+    width: 50%;
+    height: 90vh;
+}
+.ton {
+    padding: 50px 0px;
+    padding-left: 580px;
+    padding-right: 40px;   
+}
+.ton h2{
+    font-size: 40px;
+    font-family: 'fraunces';
+    font-weight: 900;
+}
+.ton p{
+    
+    font-family: 'barlow';
+    font-weight: bold;
+    font-size: 14.3px;
+    color: gray;
+    text-align: left;
+}
+.ton a{
+    
+    font-size: 14.3px;
+    font-family: 'fraunces';
+    font-weight: bold;
+    color: black;
+    text-decoration-color: hsl(7, 99%, 70%) ;
+    
+}
+.cur4{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.img1 img{
+    float: left;
+    width: 50%;
+    height: 90vh;
+}
+.a{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    text-align: center;
+    padding: 65px 0px;
+    padding-right: 600px;
+    padding-left: 60px;   
+}
+.a h3{
+    font-family: 'fraunces';
+    font-weight: 900;
+    font-size: 5vmin;
+}
+.a p{
+    font-family: 'barlow';
+    font-size: 3.5vmin;
+    font-weight: 500;
+}
+.img2 img{
+    float: right;
+    width: 50%;
+    height: 90vh;
+}
+.b{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    text-align: center;
+    padding: 65px 0px;
+    padding-left: 600px;
+    padding-right: 60px;
+}
+.b h3{
+    font-family: 'fraunces';
+    font-weight: 900;
+    font-size: 5vmin;
+}
+.b p{
+    font-family: 'barlow';
+    font-size: 3.5vmin;
+    font-weight: 500;
+}
+.cur4{
+    height: 100vh;
+}
+.c1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    font-family: 'fraunces';
+    font-weight: bold;
+}
+h3{
+    padding: 30px 10px;
+}
+.sun{
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+.mm{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    
+    
+}
+.c2{
+    border: 1px solid white;
+    width: 20%;
+    text-align: center;
+    padding: 0px 10px;
+}
+.c3{
+    border: 1px solid white;
+    width: 20%;
+    text-align: center;
+    padding: 0px 10px;   
+}
+.c4{
+    border: 1px solid white;
+    width: 20%;
+    text-align: center;
+    padding: 0px 10px;  
+}
+.n1{
+    font-family: 'barlow';
+    font-size: 3vmin;
+    color: gray;
+    padding: 30px 0px;
+    font-weight: 600;
+}
+h4{
+    font-family: 'fraunces';
+    font-weight: 700;
+}
+.n2{
+    color: gray;
+    font-family: 'barlow';
+    font-size: 3vmin;
+    padding: 10px 0px;
+}
+.cur6{
+    height: 140vh;
+    background-color: hsl(168, 52%, 68%);
+    
+}
+.no{
+    display: inline-flex;
+}
+.la{
+    width: 251.6px;
+    height: 70vh;
+}
+.footer{
+    height: 70vh;
+    background-color: hsl(168, 52%, 68%);
+}
+h2.foo1{
+    text-align: center;
+    padding: 10vh 0px;
+    color: hsl(198, 62%, 26%);
+    font-family: sans-serif;
+    font-weight: 900;
+    
+}
+.foot2{
+    text-align: center;
+    
+}
+a.v{
+    padding: 0px 25px;
+    text-decoration: none;
+    font-family: 'barlow';
+    font-weight: 600;
+}
+a.v:hover{
+    color: white;
+}
+.end{
+    text-align: center;
+}
+.hh{
+    padding: 80px 10px;
+    cursor: pointer;
+}
